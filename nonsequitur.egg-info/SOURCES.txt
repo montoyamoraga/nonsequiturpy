@@ -1,0 +1,7 @@
+README.rst
+setup.py
+nonsequitur/__init__.py
+nonsequitur.egg-info/PKG-INFO
+nonsequitur.egg-info/SOURCES.txt
+nonsequitur.egg-info/dependency_links.txt
+nonsequitur.egg-info/top_level.txt
