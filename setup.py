@@ -10,10 +10,11 @@ from setuptools import *
 
 setup(
     name='nonsequitur',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/montoyamoraga/nonsequiturpy',
     author='aaron montoya-moraga',
     description='non sequitur text generator',
     license='MIT',
+    install_requires=['spacy']
     packages= find_packages(exclude=['contrib', 'docs', 'tests*']),
 )
