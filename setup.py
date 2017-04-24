@@ -15,6 +15,6 @@ setup(
     author='aaron montoya-moraga',
     description='non sequitur text generator',
     license='MIT',
-    install_requires=['spacy']
+    install_requires=['spacy'],
     packages= find_packages(exclude=['contrib', 'docs', 'tests*']),
 )
