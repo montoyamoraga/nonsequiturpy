@@ -1,18 +1,18 @@
 Metadata-Version: 1.1
 Name: nonsequitur
-Version: 0.0.4
+Version: 0.0.5
 Summary: non sequitur text generator, mainly jokes
 Home-page: https://github.com/montoyamoraga/nonsequiturpy
 Author: aaron montoya-moraga
 Author-email: aammontoya@gmail.com
 License: Apache License 2.0
 Description: nonsequitur.py
-        =======================
+        ==============
         
         A Python module for generating non sequitur text.
         
         Available functions
-        ----
+        -------------------
         
         america_russia()
         bar()
