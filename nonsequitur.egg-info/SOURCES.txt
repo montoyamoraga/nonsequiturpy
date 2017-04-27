@@ -6,3 +6,4 @@ nonsequitur.egg-info/SOURCES.txt
 nonsequitur.egg-info/dependency_links.txt
 nonsequitur.egg-info/requires.txt
 nonsequitur.egg-info/top_level.txt
+nonsequitur.egg-info/zip-safe
