@@ -18,7 +18,7 @@ with open('README.rst') as readme_file:
 
 setup(
     name='nonsequitur',
-    version='0.0.5',
+    version='0.0.6',
     description='non sequitur text generator, mainly jokes',
     long_description= readme,
     author='aaron montoya-moraga',

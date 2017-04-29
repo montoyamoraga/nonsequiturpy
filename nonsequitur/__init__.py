@@ -178,7 +178,7 @@ def knock_knock():
     # pytracery rules
     rules = {
         'origin': '#[thingy:#subject#]story#',
-        'story': '- Knock knock \n- Who\'s there? \n- #thingy#\n- #thingy.capitalize# who?\n- #thingy.capitalize# #object#',
+        'story': '- Knock knock \n- Who\'s there? \n- #thingy.capitalize#\n- #thingy.capitalize# who?\n- #thingy.capitalize# #object#',
         'verb': verbsPast,
         'countries': pycorpora.geography.countries['countries'],
         'subject': pycorpora.words.strange_words['words'],

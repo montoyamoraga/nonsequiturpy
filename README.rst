@@ -3,21 +3,26 @@ nonsequitur.py
 
 A Python module for generating non sequitur text.
 
+Installation
+------------
+
+pip install --no-cache-dir nonsequitur
+
 Available functions
 -------------------
 
-america_russia()
-bar()
-chicken()
-cows()
-knock_knock()
-lightbulb()
-violas()
+- america_russia()
+- bar()
+- chicken()
+- cows()
+- knock_knock()
+- lightbulb()
+- violas()
 
 License
 -------
 
-This port inherits Tracery's original Apache License 2.0.
+This library inherits its dependency Tracery's original Apache License 2.0.
 
 ::
     Copyright 2017 Aaron Montoya-Moraga
