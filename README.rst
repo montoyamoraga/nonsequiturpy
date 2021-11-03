@@ -6,7 +6,9 @@ A Python module for generating non sequitur text.
 Installation
 ------------
 
+```
 pip install --no-cache-dir nonsequitur
+```
 
 Available functions
 -------------------
@@ -25,7 +27,7 @@ License
 This library inherits its dependency Tracery's original Apache License 2.0.
 
 ::
-    Copyright 2017 Aaron Montoya-Moraga
+    Copyright 2017 Aarón Montoya-Moraga
     Based on code by Kate Compton and Allison Parrish
 
     Licensed under the Apache License, Version 2.0 (the "License");
