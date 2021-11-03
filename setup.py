@@ -10,7 +10,12 @@
 # twine upload dist/nonsequitur-x.y.z.tar.gz
 
 # from distutils.core import setup
-from setuptools import *
+from setuptools import setup, find_packages
+import pathlib
+
+here = pathlib.Path(__file__).parent.resolve()
+
+long_description = (here / 'README.md').read_text(encoding='utf_8')
 
 # this code was taken from the setup of pytracery
 with open('README.rst') as readme_file:
@@ -18,11 +23,12 @@ with open('README.rst') as readme_file:
 
 setup(
     name='nonsequitur',
-    version='0.0.6',
-    description='non sequitur text generator, mainly jokes',
-    long_description= readme,
-    author='aaron montoya-moraga',
-    author_email='aammontoya@gmail.com',
+    version='0.0.7',
+    description='non sequitur jokes generator',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    author='aarón montoya-moraga',
+    author_email='montoyamoraga@gmail.com',
     url='https://github.com/montoyamoraga/nonsequiturpy',
     packages= find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires=['pycorpora', 'tracery'],
@@ -30,8 +36,9 @@ setup(
     keywords='nonsequitur',
     zip_safe=True,
     classifiers = [
-    'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3',
     'Natural Language :: English',
     'Topic :: Artistic Software',
-    ]
+    ],
+    python_requires='>=3.0, <4'
 )
