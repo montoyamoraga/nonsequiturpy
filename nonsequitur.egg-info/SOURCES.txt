@@ -1,4 +1,5 @@
-README.rst
+LICENSE
+README.md
 setup.py
 nonsequitur/__init__.py
 nonsequitur.egg-info/PKG-INFO

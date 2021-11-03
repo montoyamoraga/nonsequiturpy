@@ -15,18 +15,20 @@ import pathlib
 
 here = pathlib.Path(__file__).parent.resolve()
 
+long_description_content_type='text/markdown'
+
 long_description = (here / 'README.md').read_text(encoding='utf_8')
 
 # this code was taken from the setup of pytracery
-with open('README.rst') as readme_file:
+with open('README.md') as readme_file:
     readme = readme_file.read()
 
 setup(
     name='nonsequitur',
     version='0.0.7',
     description='non sequitur jokes generator',
+    long_description_content_type=long_description_content_type,
     long_description=long_description,
-    long_description_content_type='text/markdown',
     author='aarón montoya-moraga',
     author_email='montoyamoraga@gmail.com',
     url='https://github.com/montoyamoraga/nonsequiturpy',
