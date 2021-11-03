@@ -2,7 +2,7 @@
 
 A Python module for generating non sequitur text.
 
-##  Installation
+## Installation
 
 ```bash
 pip install --no-cache-dir nonsequitur
