@@ -1,17 +1,17 @@
-#nonsequitur.py module
-#for generation of non sequitur text
-#by aaron montoya-moraga
-#part of my nyu itp thesis
-#and also final project for class
-#reading and writing electronic text
-#by professor allison parrish
-#april 2017
-#v0.0.4
+# nonsequitur.py module
+# for generation of non sequitur text
+# by aaron montoya-moraga
+# part of my nyu itp thesis
+# and also final project for class
+# reading and writing electronic text
+# by professor allison parrish
+# april 2017
+# v0.0.4
 
 # special thanks:
 # to allison parrish for pytracery, pycorpora, teaching me python and how to read and write digital text
-#to kate compton for tracery
-#to dariusk for corpora
+# to kate compton for tracery
+# to dariusk for corpora
 
 #import dependencies
 import tracery
@@ -67,7 +67,7 @@ def bar():
         verbsPresent.append(verbsAll[verb]['present'])
         verbsPast.append(verbsAll[verb]['past'])
 
-    #number parsing
+    # number parsing
     numbersInt = pycorpora.mathematics.primes['primes']
     numbersString = list()
 
@@ -234,7 +234,7 @@ def lightbulb():
     # print result
     print grammar.flatten("#origin#")
 
-#def of violas joke
+# def of violas joke
 def violas():
 
     # retrieve verbs from pycorpora
@@ -250,7 +250,7 @@ def violas():
         verbsPresent.append(verbsAll[verb]['present'])
         verbsPast.append(verbsAll[verb]['past'])
 
-    #number parsing
+    # number parsing
     numbersInt = pycorpora.mathematics.primes['primes']
     numbersString = list()
 
@@ -278,6 +278,6 @@ def violas():
     # print result
     print grammar.flatten("#origin#")
 
-#TODO
+# TODO
 # def print_stuff():
 #     os.startfile()
