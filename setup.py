@@ -1,18 +1,18 @@
-#nonsequitur.py
-#by aaron montoya-moraga
-#april 2017
-#this setup code borrows heavily from the one of pytracery by Allison Parrish
-#available at
-#https://github.com/aparrish/pytracery
+# nonsequitur.py
+# by aaron montoya-moraga
+# april 2017
+# this setup code borrows heavily from the one of pytracery by Allison Parrish
+# available at
+# https://github.com/aparrish/pytracery
 
-#to distribute, on terminal do
-#python setup.py sdist
-#twine upload dist/nonsequitur-x.y.z.tar.gz
+# to distribute, on terminal do
+# python setup.py sdist
+# twine upload dist/nonsequitur-x.y.z.tar.gz
 
-#from distutils.core import setup
+# from distutils.core import setup
 from setuptools import *
 
-#this code was taken from the setup of pytracery
+# this code was taken from the setup of pytracery
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
